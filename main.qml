@@ -32,7 +32,7 @@ ApplicationWindow
         id: timer
         
         interval: 1000
-        running: false
+        running: true
         repeat: true
 
         onTriggered:
@@ -55,7 +55,7 @@ ApplicationWindow
 
         onClicked:
         {
-            timer.running = false
+            timer.running = true
         }
         
 
@@ -73,7 +73,7 @@ ApplicationWindow
         
         onClicked:
         {
-            timer.running = true
+            timer.running = false
         }
 
     }
